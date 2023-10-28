@@ -1,0 +1,185 @@
+/* 取消间距 */
+html,body,p,h1,h2,h3,h4,h5,h6,ol,ul,li,img,input,form,table,dl,dd,dt{
+    margin: 0;
+    padding: 0;
+}
+/* 取消列表项 */
+ul,ol,li{
+    list-style: none;
+}
+/* 取消超链接a标签的下划线 */
+a{
+    text-decoration: none;
+}
+/* 取消图片下面3px的留白 */
+img{
+    vertical-align: middle;
+}
+/* 提取公共版心 */
+.publicCen{
+    width: 960px;
+    margin: 0 auto;
+}
+input{
+    /*取消描边*/
+    outline: none;
+    /*取消边框*/
+    border: none;
+}
+.logo{
+    height: 120px;
+}
+.logo>img{
+    float: left;
+    padding-top: 34px; 
+    margin-right: 16px;
+}
+.logo>div>.p1{
+    font-size: 24px;
+    color: #fa8100;
+}
+.logo>div{
+    width: 370px;
+    height: 50px;
+    float: left;
+    border-left: 1px solid gray;
+    margin-top: 38px;
+    padding-left: 16px;
+    margin-right: 80px;
+}
+
+.nav{
+    height : 50px;
+    background-color: #00659c;
+}
+.nav>ul{
+    height : 50px;
+}
+.nav li{
+    float: left;
+    line-height: 50px;
+    color:white;
+    font-size: 14px;
+    padding:0px 30px;
+    background: url(../img/12-shugang.png) no-repeat right center;
+}
+.nav>ul>.last{
+    background-image: none;
+}
+#on{
+    background-color: #004b8b;
+}
+.nav li:hover{
+    background-color: #004b8b;
+}
+.ban{
+    height: 340px;
+    background:url(../img/12-rept.png)
+}
+.tit{
+    height: 110px;
+}
+.tit>p{
+    line-height: 110px;
+}
+.tit .sp1{
+    font-size: 28px;
+    color: #006ca7;
+    float: left;
+}
+.tit .sp2{
+    color: #666666;
+    margin-left: 16px;
+    float: left;
+}
+.tit .sp3{
+    font-size: 12px;
+    color: #8c8c8c;
+    float:right;
+}
+.pic{
+    height: 550px;
+    margin-bottom: 100px;
+}
+.pic .bigbox{
+    width: 230px;
+    height: 264xp;
+    border: 1px solid #e7e7e7;
+    /* 居中 */
+    position: relative;
+    float: left;
+    margin-right: 11px;
+    margin-bottom: 16px;
+}
+.pic .last{
+    margin-right: 0px;
+}
+/* 控制图片大小 */
+.pic .bigbox>img{
+    width: 100%;
+    height: 100%;
+}
+.pic .bigbox>div{
+    width: 100%;
+    height: 86px;
+    background-color: rgba(0,0,0,.4);
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+ .pic .p1{
+    line-height: 42px;
+    font-weight: bold;
+}
+.pic .p2{
+    width: 120px;
+    height: 26px;
+    border: 1px solid #b5b5b5;
+    margin: 0 auto;
+    line-height: 26px;
+}
+.footer{
+    height: 88px;
+    background-color:#006eaa;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.footer>div>div{
+    float: left;
+    margin-top: 26px;
+}
+
+.footer .lef{
+    margin-top: 18px;
+}
+.footer .mid{
+    width: 400px;
+    height: 36px;
+    border-left: 1px solid #abcfe3;
+
+    text-indent: 14px;
+    margin-left: 34px;
+}
+.footer .rig{
+    margin-right: 12px;
+}
+.box{
+    width: 50px;
+    height: 100px;
+    background:url(../img/dianhua.png)no-repeat ;
+    position: fixed;
+    top: 120px;
+    right: 0;
+}
+.box2{
+    width: 50px;
+    height: 138px;
+    background:url(../img/yyzx.png)no-repeat ;
+    position: fixed;
+    top: 226px;
+    right: 0;
+}

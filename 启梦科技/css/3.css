@@ -1,0 +1,399 @@
+/* 取消间距 */
+html,body,p,h1,h2,h3,h4,h5,h6,ol,ul,li,img,input,form,table,dl,dd,dt{
+    margin: 0;
+    padding: 0;
+}
+/* 取消列表项 */
+ul,ol,li{
+    list-style: none;
+}
+/* 取消超链接a标签的下划线 */
+a{
+    text-decoration: none;
+}
+/* 取消图片下面3px的留白 */
+img{
+    vertical-align: middle;
+}
+/* 提取公共版心 */
+.publicCen{
+    width: 960px;
+    margin: 0 auto;
+}
+input,textarea{
+    /*取消描边*/
+    outline: none;
+    /*取消边框*/
+    border: none;
+}
+.logo{
+    height: 120px;
+}
+.logo>img{
+    float: left;
+    padding-top: 34px; 
+    margin-right: 16px;
+}
+.logo>div>.p1{
+    font-size: 24px;
+    color: #fa8100;
+}
+.logo>div{
+    width: 370px;
+    height: 50px;
+    float: left;
+    border-left: 1px solid gray;
+    margin-top: 38px;
+    padding-left: 16px;
+    margin-right: 80px;
+}
+
+.nav{
+    height : 50px;
+    background-color: #00659c;
+}
+.nav>ul{
+    height : 50px;
+}
+.nav li{
+    float: left;
+    line-height: 50px;
+    color:white;
+    font-size: 14px;
+    padding:0px 30px;
+    background: url(../img/12-shugang.png) no-repeat right center;
+}
+.nav>ul>.last{
+    background-image: none;
+}
+#on{
+    background-color: #004b8b;
+}
+.nav li:hover{
+    background-color: #004b8b;
+}
+.ban{
+    height: 340px;
+    background:url(../img/12-rept.png)
+}
+.tit{
+    height: 90px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.tit .sp1{
+    font-size: 28px;
+    color: #006ca7;
+    float: left;
+    font-weight: bold;
+    padding-top: 38px;
+}
+.tit .sp2{
+    color: #666666;
+    margin-left: 16px;
+    float: left;
+    padding-top: 48px;
+}
+.tit .sp3{
+    font-size: 12px;
+    float:right;
+    padding-top: 54px;
+}
+h1{
+    padding-top: 34px;
+    padding-bottom: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    color: #006da9;
+    font-size: 28px;
+}
+.litbox{
+    height: 70px;
+    font-weight: bold;
+}
+.litbox>span{
+    width: 62px;
+    display: block;
+    float: left;
+    border: 3px solid #006da9;
+    font-size: 30px;
+    margin-left: 300px;
+    line-height: 62px;
+    text-align: center;
+    color: #006da9;
+
+}
+.litbox>.boxRig{
+    width: 294px;
+    float: left;
+    text-indent: 12px;
+
+}
+.litbox>.boxRig>.p1{
+ 
+    line-height: 40px;
+    font-size: 24px;
+    color: #006da9;
+    border-bottom: 1px solid #c8c8c8;
+
+}
+.litbox>.boxRig>.p2{
+
+    line-height: 29px;
+    font-size: 14px;
+    color: #666666;
+}
+.txt{
+    height: 288px;
+    color: #666666;
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 40px;
+}
+.txt>div{
+    float: left;
+    width: 208px;
+    height: 186px;
+    border: 1px solid #c6c6c6;
+    margin-top: 40px;
+    margin-right: 72px;
+    background: url(../img/lantiao.png) no-repeat 24px 0px;
+}
+.txt>.first{
+    margin-left: 96px;
+}
+.txt>div>p{
+    font-size: 14px;
+    line-height: 26px;
+    padding:32px 27px;
+}
+.txt2{
+    height: 200px;
+    margin-top: 30px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.txt2 li{
+    padding-left: 294px;
+    font-size: 12px;
+    color:#666666;
+    margin-bottom: 22px;
+    background: url(../img/dian.png) no-repeat 276px center;
+}
+.txt2 p{
+    text-align: center;
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.txt3{
+    height: 384px;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 50px;
+}
+h2{
+    font-size: 18px;
+    text-align: center;
+    color: #333333;
+}
+h2>span{
+    color: #00659c;
+    margin: 0 8px;
+}
+.txt3>p{
+    width: 450px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 26px;
+    color: #666666;
+    margin: 28px auto;
+}
+.txt3 dl{
+    margin-left: 330px;
+}
+.txt3 dt{
+font-size: 14px;
+margin-bottom: 26px;
+}
+.txt3 dd{
+font-size: 12px;
+line-height: 32px;
+color: #666666;
+background: url(../img/1.png) no-repeat left center;
+text-indent: 36px;
+}
+.txt3 dd>span{
+    color: #0a80c0;
+}
+.txt3 .last{
+    display: block;
+    font-size: 22px;
+    color: #000;
+    text-align: center;
+    margin-top: 42px;
+}
+.txt4{
+    height: 288px;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 66px;
+}
+.txt4 p{
+    text-align: center;
+    color: #666666;
+    font-size: 12px;
+}
+.txt4 .p1{
+    padding-top: 30px;
+    padding-bottom: 24px;
+}
+.txt4{
+    line-height: 30px;
+}
+.txt4 span{
+    display:block;
+    float: left;
+}
+.txt4 div{
+    height: 30px;
+}
+.txt4 .block{
+
+    width: 90px;
+    height: 30px;
+    background-color: #006da9;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 200px;
+}
+.txt4 .san{
+    border: 8px solid transparent;
+    border-left-color: #006da9;
+    position: relative;
+    top: 8px;
+    left: 0;
+}
+.txt4 .sp1{
+    margin: 0 10px;
+}
+.txt4 .box1{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.txt4 .p4{
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.box4{
+    padding-bottom: 100px;
+}
+.box3{
+    width: 866px;
+    height: 500px;
+    border: 5px solid #004b8b;
+    margin: 0 auto;
+    
+}
+.box3>div{
+    width: 846px;
+    height: 480px;
+    border: 2px solid #004b8b;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+form p{
+    font-size: 14px;
+    margin-bottom: 24px;
+    margin-left: 40px;
+}
+form .first{
+    margin-top: 58px;
+}
+form input{
+    width: 256px;
+    height: 30px;
+    border: 1px solid #e7e7e7;
+    font-size: 12px;
+    line-height: 30px;
+    margin-left: 16px;
+    text-indent: 10px;
+    color: #a9a9a9;
+}
+form textarea{
+    width: 340px;
+    height: 102px;
+    border: 1px solid #e7e7e7;
+    margin-left: 16px;
+}
+form .last>span{
+    vertical-align: top;
+}
+form .bot{
+    width: 106px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+    color: #fff;
+    background-color: #167fc0;
+    border: 1px solid #1476b3;
+    border-radius: 7%;
+    margin-left: 72px;
+    text-indent: 0;
+}
+.box4>p{
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
+}
+.box4>p>.sp1{
+    color: #666666;
+}
+.box4>p>.sp2{
+    color: #007ec3;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.footer{
+    height: 88px;
+    background-color:#006eaa;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.footer>div>div{
+    float: left;
+    margin-top: 26px;
+}
+
+.footer .lef{
+    margin-top: 18px;
+}
+.footer .mid{
+    width: 400px;
+    height: 36px;
+    border-left: 1px solid #abcfe3;
+
+    text-indent: 14px;
+    margin-left: 34px;
+}
+.footer .rig{
+    margin-right: 12px;
+}
+
+.box{
+    width: 50px;
+    height: 100px;
+    background:url(../img/dianhua.png)no-repeat ;
+    position: fixed;
+    top: 120px;
+    right: 0;
+}
+.box2{
+    width: 50px;
+    height: 138px;
+    background:url(../img/yyzx.png)no-repeat ;
+    position: fixed;
+    top: 226px;
+    right: 0;
+}

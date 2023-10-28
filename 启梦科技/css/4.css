@@ -1,0 +1,248 @@
+/* 取消间距 */
+html,body,p,h1,h2,h3,h4,h5,h6,ol,ul,li,img,input,form,table,dl,dd,dt{
+    margin: 0;
+    padding: 0;
+}
+/* 取消列表项 */
+ul,ol,li{
+    list-style: none;
+}
+/* 取消超链接a标签的下划线 */
+a{
+    text-decoration: none;
+}
+/* 取消图片下面3px的留白 */
+img{
+    vertical-align: middle;
+}
+/* 提取公共版心 */
+.publicCen{
+    width: 960px;
+    margin: 0 auto;
+}
+input,textarea{
+    /*取消描边*/
+    outline: none;
+    /*取消边框*/
+    border: none;
+}
+.logo{
+    height: 120px;
+}
+.logo>img{
+    float: left;
+    padding-top: 34px; 
+    margin-right: 16px;
+}
+.logo>div>.p1{
+    font-size: 24px;
+    color: #fa8100;
+}
+.logo>div{
+    width: 370px;
+    height: 50px;
+    float: left;
+    border-left: 1px solid gray;
+    margin-top: 38px;
+    padding-left: 16px;
+    margin-right: 80px;
+}
+
+.nav{
+    height : 50px;
+    background-color: #00659c;
+}
+.nav>ul{
+    height : 50px;
+}
+.nav li{
+    float: left;
+    line-height: 50px;
+    color:white;
+    font-size: 14px;
+    padding:0px 30px;
+    background: url(../img/12-shugang.png) no-repeat right center;
+}
+.nav>ul>.last{
+    background-image: none;
+}
+#on{
+    background-color: #004b8b;
+}
+.nav li:hover{
+    background-color: #004b8b;
+}
+.ban{
+    height: 340px;
+    background:url(../img/12-rept.png)
+}
+.tit{
+    height: 90px;
+    background: url(../img/xiaohengtiao.png) no-repeat left bottom;
+}
+.tit .sp1{
+    font-size: 28px;
+    color: #006ca7;
+    float: left;
+    font-weight: bold;
+    padding-top: 38px;
+}
+.tit .sp2{
+    color: #666666;
+    margin-left: 16px;
+    float: left;
+    padding-top: 48px;
+}
+.tit .sp3{
+    font-size: 12px;
+    float:right;
+    padding-top: 54px;
+}
+.txt>p{
+    font-size: 14px;
+    line-height: 26px;
+}
+.txt>.p1{
+    color: #666666;
+    margin-top: 14px;
+    margin-bottom: 28px;
+}
+.bigbox{
+    width: 960px;
+    height: 580px;
+    margin-top: 36px;
+    margin-bottom: 50px;
+}
+.bigbox>div{
+    width: 226px;
+    height: 280px;
+    border: 1px solid #e5e5e5;
+    float: left;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+.bigbox>div>img{
+    padding-top: 34px;
+    padding-left: 24px;
+}
+.bigbox>div>p{
+    text-align: center;
+}
+.bigbox>div>.p1{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.bigbox>div>.p2{
+    font-size: 12px;
+    margin-top: 14px;
+}
+.bigbox>div>.p3{
+    margin-top: 14px;
+}
+.bigbox>div input{
+    width: 98px;
+    height: 24px;
+    border: 1px solid #e7e7e7;
+    line-height: 24px;
+    background-color: #ffffff;
+    margin:  26px auto;
+    font-size: 12px;
+}
+.bigbox .last{
+    margin-right: 0; 
+}
+h1{
+    font-size: 28px;
+    color: #006da9;
+}
+form{
+    width: 960px;
+    height: 476px;
+    border: 1px solid gray;
+    margin-top: 20px;
+    margin-bottom: 82px;
+}
+form p{
+    font-size: 14px;
+    margin-bottom: 24px;
+    margin-left: 40px;
+}
+form .first{
+    margin-top: 58px;
+}
+form input{
+    width: 256px;
+    height: 30px;
+    border: 1px solid #e7e7e7;
+    font-size: 12px;
+    line-height: 30px;
+    margin-left: 16px;
+    text-indent: 10px;
+    color: #a9a9a9;
+}
+form textarea{
+    width: 340px;
+    height: 102px;
+    border: 1px solid #e7e7e7;
+    margin-left: 16px;
+}
+form .last>span{
+    vertical-align: top;
+}
+form .bot{
+    width: 106px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+    color: #fff;
+    background-color: #167fc0;
+    border: 1px solid #1476b3;
+    border-radius: 7%;
+    margin-left: 72px;
+    text-indent: 0;
+}
+.footer{
+    height: 88px;
+    background-color:#006eaa;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.footer>div>div{
+    float: left;
+    margin-top: 26px;
+}
+
+.footer .lef{
+    margin-top: 18px;
+}
+.footer .mid{
+    width: 400px;
+    height: 36px;
+    border-left: 1px solid #abcfe3;
+
+    text-indent: 14px;
+    margin-left: 34px;
+}
+.footer .rig{
+    margin-right: 12px;
+}
+
+.box{
+    width: 50px;
+    height: 100px;
+    background:url(../img/dianhua.png)no-repeat ;
+    position: fixed;
+    top: 120px;
+    right: 0;
+}
+.box2{
+    width: 50px;
+    height: 138px;
+    background:url(../img/yyzx.png)no-repeat ;
+    position: fixed;
+    top: 226px;
+    right: 0;
+}

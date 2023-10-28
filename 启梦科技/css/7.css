@@ -1,0 +1,310 @@
+/* 取消间距 */
+html,body,p,h1,h2,h3,h4,h5,h6,ol,ul,li,img,input,form,table,dl,dd,dt{
+    margin: 0;
+    padding: 0;
+}
+/* 取消列表项 */
+ul,ol,li{
+    list-style: none;
+}
+/* 取消超链接a标签的下划线 */
+a{
+    text-decoration: none;
+}
+/* 取消图片下面3px的留白 */
+img{
+    vertical-align: middle;
+}
+/* 提取公共版心 */
+.publicCen{
+    width: 960px;
+    margin: 0 auto;
+}
+input,textarea{
+    /*取消描边*/
+    outline: none;
+    /*取消边框*/
+    border: none;
+}
+.logo{
+    height: 120px;
+}
+.logo>img{
+    float: left;
+    padding-top: 34px; 
+    margin-right: 16px;
+}
+.logo>div>.p1{
+    font-size: 24px;
+    color: #fa8100;
+}
+.logo>div{
+    width: 370px;
+    height: 50px;
+    float: left;
+    border-left: 1px solid gray;
+    margin-top: 38px;
+    padding-left: 16px;
+    margin-right: 80px;
+}
+
+.nav{
+    height : 50px;
+    background-color: #00659c;
+}
+.nav>ul{
+    height : 50px;
+}
+.nav li{
+    float: left;
+    line-height: 50px;
+    color:white;
+    font-size: 14px;
+    padding:0px 30px;
+    background: url(../img/12-shugang.png) no-repeat right center;
+}
+.nav>ul>.last{
+    background-image: none;
+}
+#on{
+    background-color: #004b8b;
+}
+.nav li:hover{
+    background-color: #004b8b;
+}
+.ban{
+    height: 480px;
+    background:url(../img/bg.png);
+    position: relative;
+}
+.ban>.bigbox{
+    width: 960px;
+    height: 110px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -480px;
+    margin-top: 58px;
+}
+.ban>.bigbox>div{
+    width: 290px;
+    height: 110px;
+    background-color: #f8f8f8;
+    float: left;
+    margin-right: 45px;    
+    color: #888888;   
+    text-align: center;
+
+}
+.ban>.bigbox>.last{
+    margin-right: 0px;
+}
+.ban>.bigbox>div h1{
+    width: 250px;
+    line-height: 56px;
+    font-size: 24px;
+    border-bottom: 1px solid #e1e1e1;
+    margin: 0 auto;
+}
+.ban>.bigbox>div p{
+    padding-top: 10px;
+    width: 210px;
+    line-height: 18px;
+    font-size: 12px;
+    margin: 0 auto;
+}
+.ban>.bigbox>div:hover{
+    background-color: #1874a7;
+    color: #fff;
+}
+.banner{
+    height: 272px;
+    background-color: #f6f6f6;
+    position: relative;
+}
+.layoutban{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -480px;
+    margin-top: -26px;
+}
+.banner>div>div{
+    width: 214px;
+    height: 254px;
+    float: left;
+    margin-right: 34px;
+    background-color: #fff;
+}
+.banner>div>.last{
+    margin-right: 0;
+}
+.banner>div>div div{
+    width: 214px;
+    height: 164px;
+    background:url(../img/kej.png) no-repeat center center #006eaa;
+}
+.banner>div>div h1{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 24px;
+}
+.banner>div>div p{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    color: #999999;
+}
+.banner>span{
+    display: block;
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+    color: #006eaa;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.banner>.sp1{
+    margin-top: -60px;
+    margin-left: -568px;
+}
+.banner>.sp2{
+    margin-top: -60px;
+    margin-left: 520px;
+}
+
+.tit{
+    height: 90px;
+
+}
+.tit .sp1{
+    font-size: 28px;
+    color: #006ca7;
+    float: left;
+    font-weight: bold;
+    padding-top: 38px;
+}
+.tit .sp2{
+    color: #666666;
+    margin-left: 16px;
+    float: left;
+    padding-top: 48px;
+}
+.tit .sp3{
+    width: 574px;
+    height: 15px;
+    background: url(../img/pic.png);
+    float: right;
+    margin-top: 56px;
+}
+.txt{
+    font-size: 14px;
+    line-height: 24px;
+}
+.bigbox2{
+    height: 132px;
+    margin-top: 24px;
+    margin-bottom: 76px;
+}
+.bigbox2>div{
+    width: 300px;
+    height: 130px;
+    border: 1px solid #e8e8e8;
+    float: left;
+    margin-right: 26px;
+    margin-bottom: 76px;
+}
+.bigbox2>.last{
+    margin-right: 0;
+}
+.bigbox2>div>h2{
+    font-size: 14px;
+    font-weight: normal;
+    color: #fff;
+    width: 300px;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    background: url(../img/baitiao.png) no-repeat 25px 20px #006eaa;
+}
+.bigbox2>div>p{
+    font-size: 14px;
+    color: #999999;
+    padding-top: 20px;
+    padding-left: 24px;
+}
+.layout{
+    height: 104px;
+    background-color: #006eaa;
+}
+.layout>div{
+  
+}
+.box1{
+    width: 340px;
+    height: 104px;
+    background: url(../img/xiegang.png) no-repeat right;
+    float: left;
+}
+.layout .box1>h1{
+    float: left;
+    line-height: 104px;
+    font-size: 24px;
+    color: #fff;
+}
+.layout .box1>.sp1{
+    line-height: 104px;
+    margin-left: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+.box2{
+    width: 138px;
+    height: 104px;
+    background-color: #006eaa;
+    float: left;
+    text-align: center;
+    background: url(../img/xiegang.png) no-repeat right center;
+    padding-right: 68px;
+}
+.box2 .p1{
+    margin-top: 26px;
+}
+.box2 .sp1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffb31f;
+}
+.box2 .sp2{
+    font-size: 14px;
+
+    color: #fff;
+}
+.box2 p{
+    color: #fff;
+    line-height: 24px;
+}
+.layout .last{
+    background: url(../img/shugangg.png) no-repeat right center;
+}
+.bigbox3{
+    height: 360px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.bigbox3>div{
+    width: 296px;
+    height: 360px;
+    font-size: 12px;
+    color: #999999;
+    line-height: 20px;
+    float: left;
+    margin-right: 36px;
+}
+.bigbox3 .p1{
+    color: #000;
+    margin: 14px 0;
+}
+.bigbox3 .last{
+    margin-right: 0;
+}
